@@ -50,3 +50,9 @@ $ netlify deploy
 # production deployment
 $ netlify deploy --prod
 ```
+
+## Notes
+
+Netlify functions run on AWS with a different runtime: https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
+
+I ran `netlify env:set AWS_LAMBDA_JS_RUNTIME nodejs14.x` in order to use Node.js v14. I should probably align the local version here too.
