@@ -51,7 +51,11 @@ $ netlify deploy
 $ netlify deploy --prod
 ```
 
-## Notes
+## I learned...
+
+- how to set up Remix with Netlify + GitHub to automatically deploy on every push
+
+## Personal notes
 
 Netlify functions run on AWS with a different runtime: https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html
 
